@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#E4685B</color>
+    <color name="secondary">#F6AE66</color>
+    <color name="tertiary">#ECE7CA</color>
+    <color name="warning">#DC4C64</color>
+    <color name="success">#14A44D</color>
+
+    <color name="link">#6278e4</color>
+    <color name="input">#FEFDFD</color>
+    <color name="input_border">#D3D3D3</color>
+
+    <color name="male">#D3E4F4</color>
+    <color name="female">#F2E4EB</color>
+
+    <color name="black">#000000</color>
+</resources>

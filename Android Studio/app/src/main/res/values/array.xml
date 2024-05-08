@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender">
+        <item>Prefer not to Tell</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>Prefer not to Tell</item>
+        <item>Johor</item>
+        <item>Kedah</item>
+        <item>Kelantan</item>
+        <item>Melaka</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Perak</item>
+        <item>Perlis</item>
+        <item>Pulau Pinang</item>
+        <item>Sabah</item>
+        <item>Sarawak</item>
+        <item>Selangor</item>
+        <item>Terengganu</item>
+        <item>W.P Kuala Lumpur</item>
+        <item>W.P Labuan</item>
+        <item>W.P Putrajaya</item>
+    </string-array>
+
+    <string-array name="businessType">
+        <item>Food and Beverages</item>
+        <item>Retail Shop</item>
+        <item>Shopping Mall</item>
+        <item>Services</item>
+        <item>Entertainment</item>
+        <item>Education</item>
+        <item>Hospitality</item>
+        <item>Sports</item>
+        <item>Others</item>
+    </string-array>
+</resources>

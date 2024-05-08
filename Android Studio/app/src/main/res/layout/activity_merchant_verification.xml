@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".views.profile.merchant.MerchantVerificationActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_back_arrow"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Verify Merchant"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headerLayout"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your SSM Certificates:"
+                android:textColor="@color/black"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ssmPreview"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginVertical="5dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp"/>
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="upload"
+                android:textSize="10sp"/>
+
+            <LinearLayout
+                android:id="@+id/scannedResultLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:text="Merchant Name:"
+                        android:gravity="end"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+
+                    <EditText
+                        android:id="@+id/merchantName"
+                        android:enabled="false"
+                        android:layout_marginHorizontal="10dp"
+                        android:paddingStart="10dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/input_border"
+                        android:background="@drawable/rounded_edittext"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:text="Registration No:"
+                        android:gravity="end"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+
+                    <EditText
+                        android:id="@+id/registrationNo"
+                        android:enabled="false"
+                        android:paddingStart="10dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/input_border"
+                        android:background="@drawable/rounded_edittext"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_width="280dp"
+            android:layout_height="43dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/secondary"
+            android:bottomLeftRadius="50dp"
+            android:bottomRightRadius="50dp"
+            android:letterSpacing="0.1"
+            android:text="VERIFY MERCHANT"
+            android:textSize="16sp"
+            android:topLeftRadius="50dp"
+            android:topRightRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

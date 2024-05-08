@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_merchantCentre"
+        android:title="@string/merchantCentre"
+        android:icon="@drawable/icon_merchant" />
+
+    <item
+        android:title="@string/profileSettings">
+        <menu>
+            <item
+                android:id="@+id/nav_editProfile"
+                android:title="@string/editProfile"
+                android:icon="@drawable/icon_edit" />
+            <item
+                android:id="@+id/nav_changePassword"
+                android:title="@string/changePassword"
+                android:icon="@drawable/icon_password" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_logOut"
+        android:title="@string/logOut"
+        android:icon="@drawable/icon_logout" />
+
+</menu>

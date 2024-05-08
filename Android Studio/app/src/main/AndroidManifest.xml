@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="tiramisu">
+        <activity
+            android:name=".views.home.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.AddPostActivity_L"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".views.profile.merchant.AddMerchantReviewActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".views.profile.ViewProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.profile.merchant.MerchantFirstLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.profile.merchant.PermanentlyClosedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.profile.merchant.EditClosingDateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.profile.merchant.EditBusinessHourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.profile.merchant.MerchantVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.profile.merchant.MerchantCentreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.profile.merchant.EditMerchantProfileActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".views.profile.merchant.BusinessHourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.posts.PostDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.profile.ChangeProfilePictureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.profile.user.EditProfileActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".views.profile.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.authentication.ForgetPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".views.authentication.SignUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".views.authentication.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".views.HomePage"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

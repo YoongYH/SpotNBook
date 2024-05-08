@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">SpotNBook</string>
+
+    <!-- LoginActivity.kt -->
+    <string name="login">Login</string>
+    <string name="log_in">Log In</string>
+    <string name="registerText">Don\'t have an account?</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="viewPassword">View Password</string>
+
+    <!-- SignUpActivity.kt -->
+    <string name="signUp"><u>Sign Up</u></string>
+    <string name="registerAccount">Register Account</string>
+    <string name="register">Register Now</string>
+    <string name="username">Username</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="error_passwordnotmatch">Both password does not Match!</string>
+
+    <string name="reset_password">Reset Password</string>
+    <string name="back_to_login">Back to Login page</string>
+
+    <string name="reset_success_title">Check your Mailbox</string>
+    <string name="reset_success_text">Password Reset Initiated. Check your email for instructions on resetting your password. Follow the provided link to securely update your password.</string>
+
+    <string name="signup_success_title">Account Register Successfully!</string>
+    <string name="signup_success_text">Congratulations! Your account has been successfully created. Welcome to our community!</string>
+
+    <!-- Password Hints -->
+    <string name="pwHint_8char">- At least 8 characters.</string>
+    <string name="pwHint_1Symb">- Contain atleast 1 Symbol.</string>
+    <string name="pwHint_1Upper">- Contain atleast 1 Uppercase text.</string>
+    <string name="pwHint_1Lower">- Contain atleast 1 Lowercase text.</string>
+
+    <string name="oldPassword">Old Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="update_password">Update Password</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="change_Profile_Picture"><u>Change Profile Picture</u></string>
+
+    <string name="preview_profile_image">Preview Profile Image</string>
+    <string name="or">or</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="paste_url_here">Paste your Image URL Here:</string>
+    <string name="image_url">Image URL</string>
+    <string name="update_profile_image">Update Profile Image</string>
+
+    <!-- Bottom Navigation Link -->
+    <string name="home">Home Page</string>
+    <string name="search">Search</string>
+    <string name="newPost">New Post</string>
+    <string name="message">Message</string>
+    <string name="profile">Profile</string>
+
+    <!-- Navigation Drawer -->
+    <string name="profileSettings">Profile Settings</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="changePassword">Change Password</string>
+    <string name="merchantCentre">Merchant Centre</string>
+    <string name="logOut">Log Out</string>
+
+    <string name="business_hours_placeholder">%1$s ~ %2$s</string>
+    <string name="permanently_closed"><u>Permanently Closed</u></string>
+    <string name="show_archived_date"><u>Show Archived Date</u></string>
+    <string name="hide_archived_date"><u>Hide Archived Date</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Activity_Add_Post.xml-->
+    <string name="select_merchant">Select Merchant</string>
+    <string name="title_activity_search_acitivity">SearchAcitivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="view_more"><u>View More</u></string>
+
+</resources>

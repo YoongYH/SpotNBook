@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorTertiary">@color/tertiary</item>
+    </style>
+
+    <style name="circleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="tabLayout" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="squareImageViewStyle">
+        <item name="cornerSize">0dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+</resources>
