@@ -1,3 +1,7 @@
+# SpotNBook Mobile Application
+
+This is a project by Yoong Yuan Hui (21WMR12577) and Brendan Chow Tian Choong (21WMR12818) from Tunku Abdul Rahmah University of Management and Technology (TARUMT).
+
 # SpotNBook Flask API
 
 This Flask API serves as the backend for the SpotNBook mobile application, providing endpoints for image recognition, search engine and recommendation.
