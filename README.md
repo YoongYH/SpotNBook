@@ -15,7 +15,9 @@ Usage: Download "word2vec-google-news-300.model" and "word2vec-google-news-300.m
 ## Endpoints
 
 /extract_text       : Image Processing
+
 /search             : Search Engine
+
 --/recommendation   : Recommendation
 
 ## Dependencies
